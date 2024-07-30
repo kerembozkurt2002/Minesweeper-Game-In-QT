@@ -43,4 +43,8 @@ the functions.
 * void revealEmptyCells(int row, int col): this is a helper function that reveals cells rrecursively 
 * if needed 
 void checkWinCondition(int row, int col): checks if the game is won 
+
+**For a detailed explanation of the program please read the description.pdf.**
+
+
 void gameOver(bool won): checks if the game is ove(won or lost) 
