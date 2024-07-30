@@ -1,9 +1,9 @@
 #  1. Overview 
 This Minesweeper game is a Qt-based C++ application that mimics the classic Minesweeper 
 game. The objective is to clear a grid of hidden mines without detonating any of them. The game 
-features custom grid size and mines and a user-friendly graphical interface. 
+features a custom grid size and mines and a user-friendly graphical interface. 
 
-**Features :**
+**Features:**
 * Custom grid size and number of mines. 
 * Flagging functionality to mark suspected mines. 
 * Reset button to start a new game. 
@@ -37,14 +37,13 @@ the functions.
 * void hintFunc(): gives hints and turns the cell block to be green and if it is green reveals the 
 * cell 
 * void createBoard(): creates the board 
-* void placeMines(): places the mines when initializing the board 
+* void placeMines(): place the mines when initializing the board 
 * int countNeighboringMines(int row, int col): gives the mine count of the neighbouring cells 
 * void revealCell(int row, int col): reveals the cell and gives the right image 
-* void revealEmptyCells(int row, int col): this is a helper function that reveals cells rrecursively 
+* void revealEmptyCells(int row, int col): this is a helper function that reveals cells recursively 
 * if needed 
-void checkWinCondition(int row, int col): checks if the game is won 
+* void checkWinCondition(int row, int col): checks if the game is won 
+* void gameOver(bool won): checks if the game is over(won or lost)
 
-**For a detailed explanation of the program please read the description.pdf.**
+* **For a detailed explanation of the program please read the description.pdf.**
 
-
-void gameOver(bool won): checks if the game is ove(won or lost) 
