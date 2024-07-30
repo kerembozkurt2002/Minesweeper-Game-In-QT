@@ -45,5 +45,7 @@ the functions.
 * void checkWinCondition(int row, int col): checks if the game is won 
 * void gameOver(bool won): checks if the game is over(won or lost)
 
-* **For a detailed explanation of the program please read the description.pdf.**
+
+ 
+ **For a detailed explanation of the program please read the description.pdf.**
 
